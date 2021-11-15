@@ -1,0 +1,37 @@
+name: set_expert_info
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+    sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_neumorphic:
+    git:
+      url: https://github.com/tsvillain/Flutter-Neumorphic.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  fonts:
+    - family: Shabnam
+      fonts:
+        - asset: asset/fonts/shabnam.ttf
+    - family: ShabnamBold
+      fonts:
+        - asset: asset/fonts/shabnambold.ttf
+    - family: ShabnamLight
+      fonts:
+        - asset: asset/fonts/shabnamlight.ttf
+  uses-material-design: true
